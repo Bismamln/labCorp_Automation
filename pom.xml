@@ -1,0 +1,53 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.qa.test.tekSystemsProject</groupId>
+  <artifactId>lab-corp-project</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>lab-corp-qa-automation</name>
+  <description>QA Automation Project is been created for Lab Corp UI and API.</description>
+  
+  
+  <dependencies>
+    <!-- Cucumber Java -->
+    <dependency>
+        <groupId>io.cucumber</groupId>
+        <artifactId>cucumber-java</artifactId>
+        <version>7.20.1</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- Cucumber JUnit 4 Integration -->
+    <dependency>
+        <groupId>io.cucumber</groupId>
+        <artifactId>cucumber-junit</artifactId>
+        <version>7.20.1</version>
+        <scope>test</scope>
+    </dependency>
+    
+    <dependency>
+    	<groupId>io.cucumber</groupId>
+    	<artifactId>cucumber-core</artifactId>
+    	<version>7.20.1</version>
+	</dependency>
+
+    <!-- JUnit 4 -->
+    <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.13.2</version>
+        <scope>test</scope>
+    </dependency>
+    
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.33.0</version> <!-- Replace with the desired Selenium version -->
+    </dependency>
+    
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>6.1.0</version>
+</dependency>
+</dependencies>
+</project>
