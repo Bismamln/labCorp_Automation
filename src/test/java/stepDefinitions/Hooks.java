@@ -1,11 +1,13 @@
 package stepDefinitions;
 
-import io.cucumber.java.After;
+import org.junit.AfterClass;
+
+
 import methods.CommonFunctions;
 
 public class Hooks extends CommonFunctions {
 	
-	@After
+	@AfterClass
 	public void tearDown() {
 		
 		closeDriver();

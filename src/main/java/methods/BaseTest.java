@@ -13,6 +13,7 @@ public interface BaseTest {
 	CareersPage career_page = new CareersPage();
 	JobListPage job_list_page = new JobListPage();
 	JobPage job_page = new JobPage();
+	commonFunctions_API apiCommons = new commonFunctions_API();
 	
 
 }

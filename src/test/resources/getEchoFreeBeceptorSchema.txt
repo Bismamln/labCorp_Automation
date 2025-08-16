@@ -1,0 +1,108 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "method": {
+      "type": "string"
+    },
+    "protocol": {
+      "type": "string"
+    },
+    "host": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "ip": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "object",
+      "properties": {
+        "Host": {
+          "type": "string"
+        },
+        "User-Agent": {
+          "type": "string"
+        },
+        "Accept": {
+          "type": "string"
+        },
+        "Accept-Encoding": {
+          "type": "string"
+        },
+        "Accept-Language": {
+          "type": "string"
+        },
+        "Priority": {
+          "type": "string"
+        },
+        "Sec-Ch-Ua": {
+          "type": "string"
+        },
+        "Sec-Ch-Ua-Mobile": {
+          "type": "string"
+        },
+        "Sec-Ch-Ua-Platform": {
+          "type": "string"
+        },
+        "Sec-Fetch-Dest": {
+          "type": "string"
+        },
+        "Sec-Fetch-Mode": {
+          "type": "string"
+        },
+        "Sec-Fetch-Site": {
+          "type": "string"
+        },
+        "Sec-Fetch-User": {
+          "type": "string"
+        },
+        "Upgrade-Insecure-Requests": {
+          "type": "string"
+        },
+        "Via": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Host",
+        "User-Agent",
+        "Accept",
+        "Accept-Encoding",
+        "Accept-Language",
+        "Priority",
+        "Sec-Ch-Ua",
+        "Sec-Ch-Ua-Mobile",
+        "Sec-Ch-Ua-Platform",
+        "Sec-Fetch-Dest",
+        "Sec-Fetch-Mode",
+        "Sec-Fetch-Site",
+        "Sec-Fetch-User",
+        "Upgrade-Insecure-Requests",
+        "Via"
+      ]
+    },
+    "parsedQueryParams": {
+      "type": "object",
+      "properties": {
+        "author": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "author"
+      ]
+    }
+  },
+  "required": [
+    "method",
+    "protocol",
+    "host",
+    "path",
+    "ip",
+    "headers",
+    "parsedQueryParams"
+  ]
+}

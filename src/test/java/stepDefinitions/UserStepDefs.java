@@ -64,8 +64,5 @@ public class UserStepDefs implements BaseTest{
 		Assert.assertEquals(data.get(2).get("Value"), actualJobId);
 		Assert.assertEquals(data.get(3).get("Value"), actualMinimumEducationRequired);
 		
-		
-	
-		
 	}
 }
